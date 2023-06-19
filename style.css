@@ -1,0 +1,151 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+  max-width: 100%;
+}
+
+h1 {
+  font-family: 'Chivo', sans-serif;
+  font-size: 45px;
+  color: #fff;
+  font-weight: 900;
+}
+
+h3{
+  font-family: 'Chivo', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+/* barre de navigation */
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  max-width:100%;
+  background-color:  black;
+}
+
+.nav{
+  display:flex;
+  align-items:center;
+  gap:50px;
+  padding-right: 50px;
+}
+.nav img{
+  cursor: pointer;
+}
+#logo{
+  width:200px;
+  cursor: pointer;
+}
+
+/*bannière*/
+.banner {
+  padding: 150px 0;
+  margin: 0;
+  background-image:url(img/SKNByLH-Site-5-opt_1619x1080.webp);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.banner-p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  font-family : sans-serif;
+}
+
+.btn-blue {
+  background-color:#0e0e0f;
+  color: white;
+  text-decoration: none;
+  padding: 20px 50px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+/* container */
+.container {
+  position: relative;
+}
+
+#animation{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 30px;
+  color:rgb(0, 0, 0);
+  animation-duration: 4s;
+  animation-name: tucoco;
+  animation-fill-mode:forwards;
+}
+
+@keyframes tucoco {
+  from { 
+    margin-left: 100%;
+    width : 300%;
+  }
+  to{ margin-left: 30px;
+    width: 100%;
+  }
+}
+h2{
+  font-family: 'Chivo', sans-serif;
+  font-weight: 800;
+}
+
+.skincare{
+  display:flex;
+  justify-content: space-around;
+}
+.img-title {
+  position: relative;
+  display: inline-block;
+}
+
+.img-title img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.img-text{
+  position: absolute;
+  top: 5%;
+  left: 6%;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: white solid 2px;
+  padding: 10px;
+  text-align: left;
+}
+.img-text p {
+  font-style: italic;
+}
+.skin{
+  display:flex;
+}
+
+.skin img{
+  height:50vh;
+  width:100%;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  font-weight: 500px;
+}
+
+
+
+
+
+
+
