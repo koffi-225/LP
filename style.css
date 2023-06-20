@@ -75,6 +75,7 @@ h3{
 }
 
 #animation{
+  margin-left: 0 !important;
   font-size: 20px;
   font-weight: bold;
   margin: 20px 30px;
